@@ -1,0 +1,6 @@
+C:\Users\nfrol\Desktop\МПТ 2 курс\Prog.sln(2)\Pr_5_C#\Pr_5_C#\obj\Debug\Pr_5_C#.csproj.AssemblyReference.cache
+C:\Users\nfrol\Desktop\МПТ 2 курс\Prog.sln(2)\Pr_5_C#\Pr_5_C#\obj\Debug\MainWindow.g.cs
+C:\Users\nfrol\Desktop\МПТ 2 курс\Prog.sln(2)\Pr_5_C#\Pr_5_C#\obj\Debug\App.g.cs
+C:\Users\nfrol\Desktop\МПТ 2 курс\Prog.sln(2)\Pr_5_C#\Pr_5_C#\obj\Debug\Pr_5_C#_MarkupCompile.cache
+C:\Users\nfrol\Desktop\МПТ 2 курс\Prog.sln(2)\Pr_5_C#\Pr_5_C#\obj\Debug\Pr_5_C#_MarkupCompile.lref
+C:\Users\nfrol\Desktop\МПТ 2 курс\Prog.sln(2)\Pr_5_C#\Pr_5_C#\obj\Debug\App.baml

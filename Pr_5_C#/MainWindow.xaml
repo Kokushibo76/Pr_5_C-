@@ -1,0 +1,34 @@
+﻿<Window x:Class="BankAccountApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:BankAccountApp.ViewModel"
+        Title="Приложение «Банковский счет»">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock>Balance:</TextBlock>
+            <TextBlock Text="{Binding Balance}" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock>Interest Rate:</TextBlock>
+            <TextBlock Text="{Binding InterestRate}" />
+        </StackPanel>
+        <ItemsControl Grid.Row="1"
+                       ItemsSource="{Binding Transactions}"
+                       ItemTemplate="{StaticResource TransactionTemplate}" />
+        <DockPanel LastChildFill="True">
+            <Button DockPanel.Dock="Left"
+                    Content="Депозит"
+                    Command="{Binding DepositCommand}" />
+            <Button DockPanel.Dock="Left"
+                    Content="Снять средства"
+                    Command="{Binding WithdrawCommand}" />
+            <Button DockPanel.Dock="Right"
+                    Content="Обновить процентную ставку"
+                    Command="{Binding UpdateInterestRateCommand}" />
+        </DockPanel>
+    </Grid>
+</Window>
